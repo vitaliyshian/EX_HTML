@@ -258,11 +258,13 @@ h5 {
     flex-wrap: wrap;
     width: calc(50% - 20px);
     background-color: #fff;
+    box-shadow: 2px 2px 3px 3px #a5a0a0;
     
 }
 
 .wraper_menu_icon {
     display: flex;
+    /* display: inline-table; */
     justify-content: space-around;
     width: 80%;
     background-color: #D89E24;
@@ -288,7 +290,7 @@ h5 {
     width: 100%;
 }
 
-.content {
+/* .content {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -304,4 +306,49 @@ h5 {
 .content > p {
    font-size: 12px;
    margin: 0px 0px 0px 12px;
+} */
+
+
+table {
+    width: 80%;
+    border-spacing: 0px 30px;
+}
+
+tr {
+    box-shadow: 0px 6px 1px -5px #7c7676;
+}
+
+.td_icon {
+    width: 10%;
+    text-align: center;
+}
+
+tr > td > img {
+    width: 25px;
+}
+
+tr > td > p {
+    font-size: 16px;
+    color: #788178;
+}
+
+tr > td:nth-child(4) {
+    text-align: end; 
+}
+
+tr > td > input {
+    width: 25px;
+    height: 25px;
+}
+
+tr > td:nth-child(3):hover,
+tr > td:nth-child(4):hover {
+    cursor: pointer;
+}
+
+.wraper_button:hover {
+    background-color: #DEAD49;
+    opacity: 1;
+    cursor: pointer;
+    border-radius: 1px;
 }
