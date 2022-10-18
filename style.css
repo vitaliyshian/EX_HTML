@@ -101,7 +101,7 @@ ul > li {
 .block {
     box-shadow: 2px 2px 3px 3px #a5a0a0;
     background: #fff;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 h5 {
@@ -164,7 +164,7 @@ h5 {
     flex-wrap: wrap;
     padding-left: 265px;
     padding-right: 15px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .next_block_container > div {
@@ -176,7 +176,7 @@ h5 {
 .wraper_img {
     display: flex;
     justify-content: center;
-    transform: translate(0px, -20px); 
+    transform: translate(0px, -40px); 
 }
 
 .icon_center {
@@ -329,6 +329,8 @@ tr > td > img {
 
 tr > td > p {
     font-size: 16px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #788178;
 }
 
@@ -351,4 +353,17 @@ tr > td:nth-child(4):hover {
     opacity: 1;
     cursor: pointer;
     border-radius: 1px;
+}
+
+/* ---------------------*/
+.col_right {
+    background-color: #274D97;
+}
+
+.col_green_info {
+    color: #3dd495;
+}
+
+tr > td {
+    color: #788178;
 }
