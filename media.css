@@ -15,6 +15,12 @@
     .container_right_content .info > span {
         font-size: 12px;
     }
+
+    .wrap_icon_menu > img {
+        display: inline;
+        width: 30px;
+        height: 25px;
+    }
 }
 
 @media screen and (max-width: 1300px){

@@ -406,5 +406,6 @@ footer > div {
 
 .footer_right_content > p {
     margin-right: 20px;
-    color: #788178;
+    color: #080808;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
