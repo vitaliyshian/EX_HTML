@@ -68,8 +68,8 @@ ul > li {
 }
 
 .container_right_content {
-    padding-left: 265px;
-    padding-right: 15px;
+    /* padding-left: 265px; */
+    /* padding-right: 15px; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -84,6 +84,11 @@ ul > li {
 .wrap_icon_menu > img {
     margin-right: 20px;
     display: none;
+}
+
+.wrap_all_container {
+    padding-left: 265px;
+    padding-right: 15px;
 }
 
 .container_right_content > h2 {
@@ -182,8 +187,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 265px;
-    padding-right: 15px;
+    /* padding-left: 265px;
+    padding-right: 15px; */
     margin-top: 90px;
 }
 
@@ -265,8 +270,8 @@ h4 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-left: 265px;
-    padding-right: 15px;
+    /* padding-left: 265px;
+    padding-right: 15px; */
     margin-top: 100px;
 }
 
@@ -305,8 +310,9 @@ h4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
+
 
 table {
     width: 80%;
@@ -408,4 +414,55 @@ footer > div {
     margin-right: 20px;
     color: #080808;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*User content*/
+
+.container_user {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 265px;
+    padding-right: 15px;
+}
+
+.title_user {
+    width: 100%;
+}
+
+.wraper_profile {
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, -5px);
+}
+
+.left_user_block {
+    background-color: #274D97;
+    width: calc(60% - 20px);
+}
+
+.right_user_block {
+    background-color: #1acc64;
+    width: calc(40% - 5px);
+}
+
+.profile_user_block {
+    width: 80%;
+    background-color: #D89E24;
+}
+
+.foto_user > img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.wrap_icon_user {
+    display: flex;
+    transform: translate(0px, -40px);
+    justify-content: center;
+ 
 }
