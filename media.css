@@ -33,7 +33,7 @@
     }
 
     .blocks_list_workers {
-        gap: 60px;
+        gap: 50px;
     }
 
     .wrap_all_container {
@@ -44,9 +44,26 @@
         padding: 15px;
     }
 
-    footer {
-        display: none;
+    .footer_left_content {
+        display: flex;
     }
+
+    .footer_left_content > a {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .footer_right_content {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .footer_right_content > p {
+        font-size: 12px;
+    }
+
+    
 
     .container_menu {
         display: none;
@@ -59,6 +76,12 @@
      .block_icon_centre {
          width: 100% !important;
          margin-bottom: 60px;
+     }
+}
+
+@media screen and (max-width: 1100px) {
+    .info {
+        margin-top: 0;
     }
 }
 
