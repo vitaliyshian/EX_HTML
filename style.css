@@ -91,12 +91,6 @@ ul > li {
     padding-right: 15px;
 }
 
-.container_right_content > h2 {
-    /* flex-shrink: 0; */
-    /* width: 100%;
-    margin: 40px 30px 20px; */
-}
-
 .icon_right_content {
     display: flex;
     justify-content: center;
@@ -177,7 +171,7 @@ h4 {
 .container_right_content .icon_right_content {
     width: 60px;
     height: 60px;
-    transform: translate(20px, -20px);
+    transform: translate(20px, -30px);
 }
 
 
@@ -203,7 +197,7 @@ h4 {
 .wraper_img {
     display: flex;
     justify-content: center;
-    transform: translate(0px, -20px); 
+    transform: translate(0px, -30px); 
 }
 
 .icon_center {
@@ -294,7 +288,7 @@ h4 {
     width: 80%;
     background-color: #D89E24;
     color: #fff;
-    transform: translate(0px, -20px);
+    transform: translate(0px, -30px);
     /* overflow: hidden;
     text-overflow:ellipsis; 
     white-space:nowrap;  */
@@ -305,7 +299,7 @@ h4 {
     display: flex;
     background-color: #6855aa;
     color: #fff;
-    transform: translate(0px, -20px);
+    transform: translate(0px, -30px);
     padding: 20px; 
 }
 
@@ -320,7 +314,7 @@ h4 {
 
 .block_navigation > div {
     padding: 15px;
-    width: 20%;
+    /* width: 20%; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -440,52 +434,159 @@ footer > div {
 }
 
 
-/*User content*/
-
+/* User */
 .container_user {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     padding-left: 265px;
-    padding-right: 15px;
+    padding-right: 25px;
+    display: inline-block;
+    margin-top: 100px;
+    width: calc(100% - -10px);
 }
 
-.title_user {
+.wrap_container_user {
+    display: flex;
+    gap: 20px;
+}
+
+/* Left Block */
+.left_block_info {
+    width: calc(80% - 0px);
+    background: #fff;
+    box-shadow: 2px 2px 3px 3px #a5a0a0;
+    /* height: 100%; */
+}
+
+.wrap_block_user_left_top {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_block_user_center {
+    width: 80%;
+    transform: translate(0px, -30px);
+    padding: 20px;
+    color: #fff;
+}
+
+.wrap_block_user_center > h2, h3 {
+    font-weight: normal;
+}
+
+.block_info_form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.application_form {
+    width: 80%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.button_up {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px 20px 0px;
+}
+
+.info_form_button {
+    background-color: #B71E51;
+    padding: 15px 40px 15px 40px;
+    cursor: pointer;
+}
+
+.col_in {
+    color: gray;
+}
+
+
+.info_form_button > h1{
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.wrap_block_user_center {
+    width: 80%;
+    background-color: #B71E51 ;
+}
+
+.info_form_name_left {
+    width: calc(50% - 20px);
+    border-bottom: 2px solid gray;
+    padding: 20px 0px 25px 0px;
+}
+
+.info_form_name_right {
+    width: calc(50% - 20px);
+    border-bottom: 2px solid gray;
+    padding: 20px 0px 25px 0px;
+}
+
+.info_form_name_address {
+    width: calc(100% - 0px);
+    border-bottom: 2px solid gray;
+    padding: 20px 0px 25px 0px;
+}
+
+textarea {
+    border: none;
+    outline: none;
     width: 100%;
 }
 
-.wraper_profile {
-    display: flex;
-    justify-content: center;
-    transform: translate(0px, -5px);
+.info_form {
+    width: calc(33% - 50px);
+    border-bottom: 2px solid gray;
+    padding: 20px 0px 25px 0px;
 }
 
-.left_user_block {
-    background-color: #274D97;
-    width: calc(60% - 20px);
-}
-
-.right_user_block {
-    background-color: #1acc64;
-    width: calc(40% - 5px);
-}
-
-.profile_user_block {
-    width: 80%;
-    background-color: #D89E24;
-}
-
-.foto_user > img {
-    width: 100px;
-    height: 100px;
+.right_block_info_user {
+    background-color: #fff;
+    width: calc(20% - 10px);
+    height: 50%;
     display: block;
+    box-shadow: 2px 2px 3px 3px #818181;
+}
+
+/* Right block User Icon*/
+.wrap_icon_user > img {
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .wrap_icon_user {
     display: flex;
-    transform: translate(0px, -40px);
     justify-content: center;
- 
+    transform: translate(0px, -50px);
 }
+
+.info_user_profile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+}
+
+.info_user_profile > h2 {
+    font-size: 16px;
+    color: #9b9797;
+    font-weight: normal;
+}
+
+.info_user_profile > h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #4c4a4a;
+}
+
+.title_user_profile {
+    font-weight: normal;
+    color: gray;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
