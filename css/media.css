@@ -21,7 +21,6 @@
         width: 30px;
         height: 25px;
     }
-
     
     .blocks_list_workers > div {
         display: flex;
@@ -147,8 +146,62 @@
 }
 
 
-/* ----------------------------------*/
+/* -------------User---------------------*/
 
+@media screen and (max-width: 1000px){
+    .wrap_container_user {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .right_block_info_user {
+        width: 100%;
+    }
+
+    .left_block_info {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container_user {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wrap_container_user {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .right_block_info_user {
+        width: 100%;
+    }
+
+    .left_block_info {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .wrap_icon_menu_user > img {
+        display: inline;
+        width: 35px;
+        height: 25px;
+    }
+
+    .footer {
+        left: 15px;
+        bottom: 0;
+        position:static;
+    }
+}
+
+@media screen and (max-width: 900px){
+   /* .footer_left_content {
+        padding: 20px 0px 0px 0px;
+        font-size: 12px;
+   } */
+}
 
 
 
